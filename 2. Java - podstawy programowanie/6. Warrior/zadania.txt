@@ -1,0 +1,9 @@
+W.1. Stwórz klasę reprezentującą wojownika. Wojownik powinien mieć pola:
+- imię
+- siła ataku
+- punkty życia
+W.2. Wojownik posiada konstruktor tworzący obiekt o zadanym imieniu, sile ataku oraz punktach życia. Posiada również konstruktor tworzący wojownika o zadanym imieniu, stu punktach życia o sile ataku równej 1.
+W.3. Dodaj metodę public String toString zwracającą opis wojownika (zawierającą jego imię, siłę ataku oraz punkty życia).
+W.4. Wojownik posiada metodę hit, przyjmującą jako argument wojownika. Wojownik, w kontekście którego metoda została wywołana zada wojownikowi przekazanemu jako argument obrażenia równe jego sile ataku. Obrażenia będą reprezentowane przez utratę punktów życia.
+W.5. Wojownik posiada również metodę fight, która jako argument przyjmie wojownika. Wywołanie metody reprezentuje walkę wojowników, póki nie zginie pierwszy z nich. Na przemian zadają sobie ciosy, póki jednemu z nich zabraknie punktów życia.
+W.6. Dodaj wojownikowi metodę isAlive. Użyj jej w rozwiązaniu poprzedniego zadania.

@@ -1,0 +1,12 @@
+Klasa będzie niemutowalna (nie możemy zmienić istniejącej liczby wymiernej)
+1. Napisz metodę getOpposite, która zwróci liczbę przeciwną (typu RationalNumber).
+2. Napisz metodę getInverse, która zwróci liczbę odwrotną (typu RationalNumber).
+3. Napisz metodę multiply, która przyjmie za parametr obiekt będący liczbą wymierną, a która zwróci wynik mnożenia obiektu, dla którego wywołano metodę przez parametr.
+Dzięki metodzie multiply możemy pomnożyć dwie liczby wymierne - pierwszą będzie ta, której metodę wywołamy, drugą będzie liczba przekazana przy użyciu parametru. Metoda zwróci iloczyn tych dwóch liczb (wynikiem będzie oczywiście również liczba wymierna)
+4. Napisz metodę divide, która zadziała analogicznie do metody multiply.
+5. Napisz konstruktor, który przyjmie jeden parametr - liczbę całkowitą. Metoda zwróci liczbę wymierną równą zadanej liczbie całkowitej.
+6. Napisz w klasie RationalNumber metodę add, która za parametr przyjmie liczbę całkowitą. Metoda zwróci wartość liczby, dla której wywołano metodę powiększoną o wartość parametru.
+7. Napisz w klasie RationalNumber metodę prywatną statyczną, która przyjmie dwa parametry - liczby całkowite, a która zwróci zwróci ich największy wspólny dzielnik, korzystając z algorytmu Euklidesa.
+8. Napisz metodę reduce, która zwróci skrócony ułamek korzystając z metody z zadania 7.
+9. Napisz metodę add, która przyjmie za parametr liczbę wymierną.
+10. Napisz metodę compareTo, która zwróci wartość typu int, a która przyjmie jako parametr liczbę wymierną. Metoda zwróci wartość dodatnią, gdy obiekt, na którym wywołano metodę reprezentuje liczbę większą od argumentu, 0 gdy wartości są równe oraz wartość ujemną, gdzy argument jest większy.
