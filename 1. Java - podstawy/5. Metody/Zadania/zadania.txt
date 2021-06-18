@@ -1,0 +1,10 @@
+1. Stwórz metodę exercise1, która przyjmie dwa parametry typu int, a która zwróci wynik mnożenia tych parametrów.
+2. Stwórz metodę exercise2, która przyjmie dwa łańcuchy znaków jako parametry, a która zwróci ich konkatenację.
+3. Stwórz metodę exercise3, która przyjmie parametr typu int. Metoda zwróci odpowiedź na pytanie, czy wartość jest dodatnia.
+4. Stwórz metodę, która przyjmie dwa parametry typu String. Metoda zwróci dłuższy z tych tekstów. Jeśli oba są równej długości, metoda zwróci pierwszy z nich.
+5. Stwórz metodę, która zadziała tak jak w metoda z zadania 1., ale wynik policzy z wykorzystaniem wielokrotnego dodawania. Niech rozwiązanie zadziała dla liczb nieujemnych.
+6. Stwórz metodę, która przyjmie dwa parametry typu int, a która zwróci wynik potęgowania o podstawie i wykładniku takich, jak przekazano.
+7. Stwórz metodę, która przyjmie jako pierwszy parametr wartość typu String, a jako drugi znak. Metoda zwróci liczbę wystąpień znaku w łańcuchu.
+8. Popraw działanie metody z zadania 5 tak, aby zadziałała również dla liczb ujemnych.
+9. Stwórz metodę, która przyjmuje dwa łańcuchy jako parametry, a która zwraca informację, czy pierwszy łańcuch zawiera drugi.
+10. Stwórz metodę, która sprawdzi, czy jeden łańcuch znaków zawiera wszystkie znaki z drugiego łańcucha (jeden znak w pierwszym nie może reprezentować więcej niż jednego w drugim).

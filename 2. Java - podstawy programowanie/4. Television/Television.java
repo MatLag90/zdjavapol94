@@ -1,0 +1,51 @@
+package pl.sdacademy.tv;
+// T.1 Stwórz klasę reprezentującą Telewizor o polach:
+public class Television {
+    //    - głośność
+    private int volume;
+    //    - liczba programów (kanałów)
+    private int channelCount;
+    //    - numer aktualnego programu (kanału)
+    private int currentChannel;
+    //    - czy włączony
+    private boolean on;
+
+//    T.2 W klasie mamy konstruktor ustalający wartości wszystkich pól zgodnie
+//    z wartościami parametrów.
+    public Television(int volume, int channelCount, int currentChannel, boolean on) {
+        this.volume = volume;
+        this.channelCount = channelCount;
+        this.currentChannel = currentChannel;
+        this.on = on;
+    }
+
+//    W klasie mamy również konstruktor ustalający jedynie wartość liczby programów
+//    zgodnie z wartością parametru - w takim wypadku tworzony telewizor będzie
+//    wyłączony, aktualny program ma wartość 1, a głośność 0.
+    public Television(int channelCount) {
+        this.channelCount = channelCount;
+        this.currentChannel = 1; // inaczej: currentChannel = 1;
+        // Poniższe instrukcje niczego nie zmienią (domyślna wartość pola typu boolean to false,
+        // a pola typu int to 0).
+//        this.on = false;
+//        this.volume = 0;
+    }
+
+//    T.3 Mamy również metodę o sygnaturze public String toString, zwracającą opis telewizora.
+//    Jeśli telewizor jest wyłączony, to zwrócony opis ma jedynie zawierać informację
+//    "Wyłączony telewizor". Gdy telewizor jest włączony, opis ma wyglądać podobnie do:
+//     "Włączony telewizor. Aktualny program X (z Y dostępnych). Ustawiona głośność to Z."
+    public String toString() {
+        if (on) {
+            return "Włączony telewizor. Aktualny program " + currentChannel + " (z " + channelCount
+                    + " dostępnych). Ustawiona głośność to " + volume + ".";
+        } else {
+            return "Wyłączony telewizor";
+        }
+    }
+
+//    T.4 Do klasy dodaj metody włączajacą oraz wyłączającą telewizor (turnOn i turnOff)
+    public void turnOn() {
+        on = true;
+    }
+}

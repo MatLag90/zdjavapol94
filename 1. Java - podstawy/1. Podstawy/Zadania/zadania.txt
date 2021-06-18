@@ -1,0 +1,21 @@
+1. Utwórz klasę o nazwie Exercise1
+W klasie zapisz kod, który wyświetli w konsoli tekst "Witaj świecie!".
+2. Utwórz klasę o nazwie Exercise2
+W klasie zapisz kod, który wyświetli w konsoli w kolejnych wierszach:
+Witaj
+Świecie!
+3. Utwórz klasę o nazwie Exercise3
+W klasie zapisz kod, który wyświetli w konsoli sekwencję:
+Wynik dodawania 2 + 2 to: _WYNIK_
+gdzie _WYNIK_ to wynik sumowania 2 + 2 (użyj operatora dodawania).
+4. Utwórz klasę o nazwie Exercise4. W klasie zapisz kod, który wyświetli:
+Wynik dzielenia 13 przez 5 to : _X_, reszta: _Y_
+gdzie _X_ to wynik dzielenia (użyj operatora dzielenia), a _Y_ to reszta z dzielenia (użyj operatora modulo)
+5. Utwórz klasę o nazwie Exercise5. Zadeklaruj zmienną typu liczbowego. Przypisz zmiennej sumę 10 oraz 5. Następnie wypisz wartość w konsoli.
+6. Utwórz klasę o nazwie Exercise6. Zadeklaruj zmienną typu tekstowego. Przypisz zmiennej tekst "Cześć".
+Zadeklaruj drugą zmienną typu tekstowego, zmiennej przypisz tekst - jakieś imię. Wypisz w konsoli konkatenację wartości pierwszej zmiennej, spacji oraz drugiej zmiennej.
+7. Utwórz klasę Exercise7. Zadeklaruj zmienną typu logicznego. Przypisz do zmiennej wynik wyrażenia:
+3 jest mniejsze lub równe 5
+oraz jednocześnie:
+10 jest różne od 15  lub 15 jest mniejsze od 10.
+Wypisz wartość zmiennej w konsoli.

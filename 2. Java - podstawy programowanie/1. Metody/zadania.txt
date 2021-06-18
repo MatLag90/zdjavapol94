@@ -1,0 +1,49 @@
+Tworzymy metody statyczne w klasach o zadanych nazwach. Metody nazywane będą: "exercise<tu-numer-zadania>", np.: exercise5. Sprawdzamy działanie każdej metody na przykładzie.
+
+Klasa Easy:
+1. Stwórz metodę, która będzie bezparametrowa, która wypisze w konsoli "Zadanie 1".
+2. Stwórz metodę, która wypisze w konsoli wartość tekstową, zadaną za pomocą parametru.
+3. Stwórz metodę, która będzie bezparametrowa, a która zwraca liczbę całkowitą 5.
+4. Stwórz metodę, która przyjmie parametr typu double, a która zwróci połowę jego wartości.
+5. Stwórz metodę, która przyjmie parametr typu String, a która zwróci długość otrzymanej wartości.
+6. Stwórz metodę, która przyjmie dwa parametry typu int, a która zwróci ich różnicę.
+7. Stwórz metodę, która przyjmuje parametr - tablicę intów, a która zwróci wartość jej pierwszego elementu.
+8. Stwórz metodę, która przyjmie parametry - tablicę stringów oraz liczbę całkowitą. Metoda zwróci element tablicy o indeksie wskazanym za pomocą drugiego parametru.
+9. Stwórz metodę, która przyjmie parametr typu String. Metoda zwróci odpowiedź na pytanie, czy jego długość jest większa od 0.
+10. Stwórz metodę. Zwróci ona tablicę intów, zawierającą elementy: 5, 10, 15.
+
+Klasa Medium:
+1. Stwórz metodę, która przyjmie parametr typu int. Metoda zwróci odpowiedź, czy ta wartość jest jednocześnie:
+- większa od 5
+- podzielna przez 3
+- mniejsza bądź równa 123
+2. Stwórz metodę, która przyjmie parametr typu String. Jeśli wartością parametru będzie pusty łańcuch, to zwróci -1. Jeśli Będzie miał od 1 do 5 znaków, to metoda zwróci 100, a jeśli ma więcej znaków, to metoda zwróci jego długość.
+3. Stwórz metodę, która przyjmie parametr typu int. Metoda wypisze w konsoli wszystkie liczby parzyste naturalne mniejsze od zadanej.
+4. Stwórz metodę, która przyjmie parametr typu int. Metoda wypisze w konsoli wszystkie liczby parzyste naturalne mniejsze od zadanej, w porządku malejącym.
+5. Stwórz metodę, która przyjmie parametr typu int. Metoda zwróci tablicę o tylu elementach ile zadano za pomocą parametru. Wartości wszystkich elementów będą równe 123.
+6. Stwórz metodę, która przyjmie parametr typu int. Metoda wypisze w konsoli wszystkie liczby naturalne aż do zadanej w taki sposób, aby różnica każdych dwóch kolejnych wypisanych wartości rosła o 1 (1, 2, 4, 7, 11, 16, 22, ....).
+
+Klasa Hard:
+1. Stwórz metodę przyjmującą jako parametr łańcuch znaków. Metoda zwróci odpowiedź na to, czy któryś z jego znaków się powtarza.
+2. Stwórz metodę przyjmującą jako parametr liczbę całkowitą. Metoda zwróci odpowiedź na to, czy parametr jest liczbą pierwszą.
+3. Stwórz metodę przyjmującą jako parametr łańcuch znaków. Metoda zwróci odpowiedź na pytanie, czy łańcuch składa się wyłącznie z kolejnych par: znak angielskiego alfabetu, a następnie cyfra (zadanie rozwiąż bez użycia wyrażenia regularnego).
+4. Stwórz metodę, która przyjmuje dwa parametry typu String. Metoda zwróci odpowiedź na pytanie, który znak występuje najczęściej zarówno w jednym, jak i drugim łańcuchu.
+
+Klasa Nightmare:
+1. Stwórz metodę contains,która przyjmuje dwa łańcuchy jako parametry,a która zwraca informację, czy pierwszy łańcuch zawiera drugi (jedyne metody z klasy String, ktorych można użyć w rozwiązaniu to length oraz charAt).
+2. Wypisz w konsoli choinkę - znaki mają być wypisane następująco:
+    
+    *
+   ***
+  *****
+ *******
+*********
+   ***
+   ***
+   ***
+   
+Założenia:
+- Pieniek ma wymiary 3x3
+- Liczba wierszy gałęzi (górnej części choinki) jest przypisana do zmiennej x.
+3. Stwórz metodę, która przyjmie parametr typu int. Metoda zwróci w odpowiedzi tablicę wszystkich czynników pierwszych argumentu.
+4. Stwórz metodę, która przyjmie parametr typu int. Metoda zwróci tablicę wartości typu logicznego. Zwrócona wartość będzie sitem Erastotenesa, o rozmiarze zadanym za pomocą parametru.

@@ -1,0 +1,15 @@
+Rozwiązanie każdego zadania rozwiąż w osobnej klasie.
+1. Stwórz program, który poprosi użytkownika o podanie wartości liczbowej. Następnie program wypisze wszystkie liczby naturalne, aż do zadanej.
+2. Stwórz program, który poprosi użytkownika o podanie dwóch wartości - długości boków prostokąta. Następnie wypisze pole takiego prostokąta.
+3. Stwórz program, który będzie zadawał użytkownikowi pytanie "Czy chcesz zakończyć działanie programu", póki odpowiada "nie". Wygoogluj frazę "java String compare".
+4. Stwórz program, który wypisze w konsoli 10 losowych wartości z zakresu 15 - 25.
+5. Stwórz program, który spyta użytkownika o podanie figury, której pole chce policzyć:
+kwadratu, prostokąta, koła czy trójkąta. Następnie zgodnie z wyborem zada odpowiednie pytania o wymiary figury i wypisze jej pole oraz obwód.
+6. Zmodyfikuj rozwiązanie poprzedniego zadania tak, aby pytanie o figurę było powtarzane, póki użytkownik nie poda zamiast figury "koniec".
+7.1 Stwórz metodę, która zada użytkownikowi 6 pytań o liczbę skreślaną na kuponie. Wartości podawane przez użytkownika będą kolejnymi elementami tablicy, którą metoda zwróci.
+7.2 Stwórz metodę, która zwraca tablicę sześcioelementową - wynik losowania lotto (wartości 1 - 49).
+7.3 Metodę losującą zmodyfikuj tak, aby zwracała tablicę o różnych rozmiarach.
+7.4 Stwórz metodę sprawdzającą, czy tablica intów zawiera zadany element.
+7.5 Stwórz metodę zwracającą, ile elementów jednej tablicy znajduje się w drugiej.
+7.6 Użyj kolejno stworzonych metod, aby zasymulować losowanie lotto - użytkownik dostanie odpowiedź - ile liczb poprawnie "skreślił".
+7.7 Zmodyfikuj aplikację tak, aby losować dopóki nie zostanie wylosowana wartość prawdziwa (oczywiście tych losowań może być sporo, więc moze być potrzeba uzbrojenia się w cierpliwość ;)).

@@ -1,0 +1,7 @@
+N.1 Stwórz klasę reprezentującą napój. Napój charaketryzuje jego objętość (w ml), nazwa, informacja o tym, czy jest gazowany. Dodaj konstruktor oraz gettery.
+Utwórz obiekt, wywołaj gettery.
+N.2 Dodaj setter objętości. Utworzonemu obiektowi zmień objętość - sprawdź zmianę za pomocą gettera.
+N.3 Napoju można się napić (dodaj metodę to reprezentującą). Jako argument zadawana jest pita objętość. Objętość napoju ulega pomniejszeniu o upitą wartość.
+N.4 W przypadku, gdy następuje próba wypicia większej ilości, niż objętość napoju, objętość napoju zostaje wyzerowana.
+N.5 Przy piciu napoju w konsoli zostaje wypisane "gul" dla każdych upitych 100 ml. 
+N.6 Jeśli następuje chęć wypicia większej ilości niż ta, która w napoju jest dostępna, dodatkowo wypisane jest w konsoli "wyzerowano!".

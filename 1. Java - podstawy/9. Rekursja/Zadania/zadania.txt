@@ -1,0 +1,8 @@
+Zadania rozwiązujemy z wykorzystaniem rekursji
+1. Stwórz metodę power (potęgowanie), która przyjmie dwa inty. Metoda zwróci pierwszy argument podniesiony do drugiego argumentu.
+a^b = a * a^(b-1), gdy b > 0
+a^b = 1, gdy b = 0
+2. Stwórz metodę sum, która przyjmie jako parametr wartość typu int. Metoda zwróci sumę liczb naturalnych aż do zadanej.
+3. Stwórz metodę fibonacci, która przyjmie argument - indeks wyrazu, a która zwróci wartość zadanego wyrazu w ciągu Fibonacciego.
+4. Stwórz metodę isPalindrome, która sprawdzi, czy łańcuch znaków jest palindromem.
+5. Rozwiąż zadanie 3 sposobem iteracyjnym.

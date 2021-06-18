@@ -1,0 +1,12 @@
+Do każdego zadania należy utworzyć kilka obiektów i przetestować działanie metod!
+1. Stwórz klasę Rectangle, która będzie miała pola: a, b (długości boków). Do klasy dodaj konstruktor (ustawiający wartości wszystkich pól) oraz gettery.
+1b. Dodaj do klasy metodę getArea, która zwróci pole powierzchni, oraz metodę getPerimeter zwracającą obwód figury.
+2. Postąp analogicznie dla koła.
+3. Stwórz klasę Person, która będzie miała pola: firstName, lastName oraz age oraz konstruktor (ustawiający wartości wszystkich pól), gettery i setter dla wieku.
+4. Stwórz klasę CoffeeMaker (ekspres do kawy). W klasie mamy pola: manufacturer (producent), grindSize (stopień mielenia). W klasie mamy konstruktor ustawiający wartości pól zgodnie z wartościami parametrów. Klasa oferuje metodę makeCoffee, która niczego nie zwraca. Metoda wypisuje w konsoli tekst: Ekspres firmy ... mieli ziarna na grubość ... i parzy kawę.
+5. Stwórz klasę Room, która będzie miała pola: area oraz height, konstruktor oraz gettery.
+6. Stwórz klasę House, która będzie miała pola: address (String), kitchen, bathroom oraz tablicę pokojów (rooms), konstruktor oraz gettery.
+7. Do klasy House dodaj metodę getArea, która zwróci pole powierzchni domu.
+8. Stwórz klasę Party, która będzie miała pola: host (gospodarz), attendees (uczestnicy) oraz konstruktor i gettery. Do klasy dodaj metodę getAverageAge, która zwróci średni wiek uczestników.
+9. Stwórz typ Lock, reprezentujący zamek na kod (z trzema przekładniami - np. zamek do walizki/roweru). Będziemy mogli tworzyć obiekt typu Lock przekazując jako parametry konstruktora trzy cyfry - kod otwierający zamek. Domyślnie obiekt będzie tworzony z losowym ustawieniem przekładni. Obiekt typu Lock będzie oferował trzy metody zmieniające ustawienie każdej z przekładni o jedną pozycję w prawo. Będzie również oferował metodę sprawdzającą, czy zamek jest otwarty, czy nie, oraz metodę wypisującą na ekranie aktualnie ustawioną kombinację zamka.
+10. Zapytajmy użytkownika o kombinację otwierającą zamek. Następnie, tworzymy zamek i dopóki utworzony zamek będzie zamknięty, pytamy użytkownika o to, którą przekładnię przełożyć.

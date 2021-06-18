@@ -1,0 +1,72 @@
+- Pierwszego dnia mamy jedną osobę zarażoną.
+- Osoba zarażona przez trzy kolejne dni zaraża po jednej osobie, po czym ginie.
+Po ilu dniach wymrze ludzkość?
+
+--------------------------------------------
+
+Wypisz w konsoli choinkę - znaki mają być wypisane następująco:
+    *
+   ***
+  *****
+ *******
+*********
+   ***
+   ***
+   ***
+   
+Założenia:
+- Pieniek ma wymiary 3x3
+- Liczba wierszy gałęzi (górnej części choinki) jest przypisana do zmiennej x.
+
+
+---------------------------------------------
+
+Stwórz tablicę dwuwymiarową znaków (do wygenerowania tablicy możesz użyć: http://www.delorie.com/game-room/mazes/genmaze.cgi jako szerokości i wysokości komórek użyj wartości 2). 
+Oznacz dodatkowo start i początek.
+Napisz metodę solve, która zwróci tablicę współrzędnych (dwuwymiarową tablicę intów) - reprezentującą ścieżkę rozwiązująca labirynt. Parametrem metody będzie tablica - labirynt.
+Labirynt powinien być rozwiązany za pomocą następującej metody:
+- trzymamy rękę na ścianie po prawej stronie i idziemy, nie cofając się.
+
+----------------------------------------------
+
+Zaimplementuj metodę countingSort, sortującą ciąg liczb całkowitych z zadanego przedziału. Metoda przyjmuje dwa argumenty - tablicę liczb, oraz ograniczenie z góry dla maksymalnej wartości elementu tablicy (zakładamy, że minimalna wartość to 0).
+Algorytm sortowania przez zliczanie, którego użyje metoda działa następująco:
+Zliczamy ile razy wystąpi każda możliwa wartość w tablicy. Następnie tworzymy wynik, bazując na uzyskanej liczbie wystąpień wartości.
+Przykładowo:
+Sortujemy ciąg: 5, 1, 6, 3, 2, 4, 1, 2, 4, określając, że maksymalna wartość jest mniejsza od 7.
+Zliczamy kolejno wartości:
+0 wystąpiło 0 razy,
+1 wystąpiło 2 razy,
+2 wystąpiło 2 razy,
+3 wystąpiło 1 raz,
+4 wystąpiło 2 razy,
+5 wystąpiło 1 raz,
+6 wystąpiło 1 raz.
+Na tej podstawie tworzymy ciąg wynikowy:
+1, 1, 2, 2, 3, 4, 4, 5, 6.
+
+
+-------------------------------------------------
+
+Stwórz aplikację, w której użytkownik może określić parametry:
+prawdopodobieństwo zarażenia osoby nieszczepionej (0 - 1)
+prawdopodobieństwo zarażenia osoby szczepionej (0 - 1)
+- długość boku kwadratu populacji - populacja będzie reprezentowana przez kwadrat obiektów typu Person, gdzie Person charakteryzują właściwości: czy osoba jest szczepiona, ile dni będzie jeszcze chora
+- prawdopodobieństwo tego, że tworzona osoba jest szczepiona (0 - 1)
+- liczba dni, przez które osoba choruje po zachorowaniu (chora osoba zaraża inne osoby)
+
+W jednej turze każda osoba chora zaraża osoby sąsiadujące osoby (z prawej/lewej/góry/dołu) z określonym prawdopodobieństem.
+
+Aplikacja pozwoli dla zadanej liczby tur określić liczbę chorych w populacji.
+
+-----------------------
+
+
+1. Stwórz klasę reprezentującą kostkę rubika (3x3). Jej implementacja metody toString powinna wypisać kolejno układ każdej ze ścian kostki, w postaci:
+BCZ
+NCB
+ZBC
+Gdzie znaki reprezentują kolory.
+Konstruktor bezargumentowy powinien tworzyć kostkę o losowym układzie - ale każdy kolor musi wystąpić 9 razy, do tego kolorów mamy 6.
+2. Klasa powinna oferować metodę move, która przyjmuje dwa argumenty - kierunek (prawo, lewo, góra, dół) oraz numer rzędu, który przesuwamy w odpowiednią stronę. Metoda oczywiście reprezentuje obrócenie wskazanego rzędu kostki w zadanym kierunku.
+3. Spraw, aby konstruktor przyjmował argument - długość boku ściany kostki

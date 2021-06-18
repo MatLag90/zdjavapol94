@@ -1,0 +1,6 @@
+1. Zadeklaruj dwie zmienne liczbowe (całkowite) i przypisz im wartości. Następnie wypisz wartość większej z nich. Do sprawdzenia, która jest większa użyj instrukcji warunkowej.
+2. Sprawdź, czy wartość przypisana zmiennej jest parzysta, czy nie (wypisz w konsoli odpowiedni komunikat).
+3. Zadeklaruj dwie zmienne, jedna reprezentująca temperaturę (liczba całkowita), druga to wartość logiczna reprezentująca to, czy pada deszcz. Przypisz zmiennym wartości. Następnie wypisz w konsoli, czy pogoda jest ładna, czy nie, przy użyciu instrukcji warunkowej. Pogoda jest ładna, gdy temperatura jest większa lub równa 20 i gdy nie pada deszcz.
+4. Sprawdź, czy wartość zmiennej jest większa, mniejsza, czy równa zero (wyszukaj w sieci frazę "java else if").
+5. Zadeklaruj trzy zmienne liczbowe (całkowite) i przypisz im wartości. Następnie wypisz wartość największej z nich.
+6. Rozwiąż zadanie 1. dla czterech zmiennych.

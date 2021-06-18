@@ -1,0 +1,11 @@
+1. Sprawdź, czy tekst składa się z samych cyfr.
+2. Sprawdź, czy tekst składa się wyłącznie z małych znaków angielskiego alfabetu.
+3. Zapisz łańcuch znaków, który pasuje do wyrażenia regularnego \\d+a*
+4. Zapisz łańcuch znaków, który pasuje do wyrażenia regularnego 5?1?a+
+5. Sprawdź, czy tekst składa się jedynie z samych znaków alfanumerycznych i białych znaków.
+6. Sprawdź, czy w tekście występuje cyfra.
+7. Napisz wyrażenie regularne, które sprawdzi, czy tekst ma format XX.XX.XXXX, gdzie X to cyfry.
+8. Sprawdź, czy w tekście nie występuje biały znak (nie może wystąpić).
+9. Sprawdź, czy tekst jest numerem tablicy rejestracyjnej.
+10. Sprawdź, czy łańcuch znaków to adres email.
+11. Zastąp w tekście wszystkie cyfry tekstem "_tu_była_cyfra_X_", gdzie X to zastąpiona cyfra.
