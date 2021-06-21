@@ -1,0 +1,5 @@
+1. Stwórz metodę, która przyjmie parametr - łańcuch znaków - liczbę zapisaną dwójkowo. Metoda zwróci łańcuch znaków - tę samą liczbę zapisaną w systemie dziesiętnym.
+2. Stwórz metodę, która przyjmie dwa parametry - jednym będzie podstawa systemu liczbowego, a drugim łańcuch znaków - liczba zapisana w tym systemie. Metoda zwróci tę wartość w systemie dziesiętnym.
+3. Utwórz metodę, która przyjmie parametry - łańcuch znaków oraz dwie wartości typu int. Łańcuch znaków to zapisana liczba w formacie naukowym, jeden z intów to podstawa potęgi, a drugi to liczba znaków, które reprezentują mantysę (pozostałe reprezentują wykładnik). Metoda zwróci łańcuch znaków - liczbę zapisaną dziesiętnie.
+4. Stwórz metodę, która przyjmie parametr - łańcuch znaków - liczbę zapisaną dziesiętnie. Metoda zwróci łańcuch znaków - tę samą liczbę zapisaną w systemie dwójkowym.
+5. Stwórz metodę, która przyjmie dwa parametry - jednym będzie podstawa systemu liczbowego wyniku, a drugim łańcuch znaków - liczba zapisana w systemie dziesiętnym. Metoda zwróci drugi parametr zapisany w systemie o zadanej podstawie.

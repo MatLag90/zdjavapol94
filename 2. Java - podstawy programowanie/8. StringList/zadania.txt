@@ -1,0 +1,11 @@
+1.  Dodaj do klasy StringList metody getFirst oraz getLast zwracające odpowiednio pierwszy oraz ostatni element.
+2.  Dodaj dwuparametrową metodę set. Pierwszy parametr będzie indeksem, drugi wartością. Metoda ustawi zadaną wartość elementowi o wskazanym indeksie.
+3.  Dodaj metodę contains, która zwróci odpowiedź na pytanie, czy lista zawiera przekazany argument.
+4.  Dodaj do klasy StringList metodę add, która posłuży do dodawania elementu.
+5.  Dodaj do klasy StringList metodę remove, która posłuży do usuwania elementu dla zadanego indeksu.
+6.  Dodaj do klasy metodę removeByValue, która przyjmie za parametr wartość elementu, a która usunie wszystkie wystąpienia zadanej wartości z listy.
+7.  Dodaj do klasy metodę copy, która zwróci kopię listy.
+8.  Dodaj metodę insertAt, która przyjmie za parametry wartość elementu oraz indeks. Metoda ma wstawić element na wskazane miejsce (nie usuwając istniejących wartości).
+9.  Dodaj metodę addAll, która przyjmie za parametr obiekt typu StringList, a która doda wszystkie elementy przekazanej listy.
+10. Dodaj metodę intersect, która przyjmie jako argument listę stringów, a która zwróci listę stringów - część wspólną obu list (tej, której metodę wywołano, oraz tej, którą przekazano jako argument).
+11. Dodaj metodę distinct, która zwróci listę zawierającą wszystkie elementy tej listy, której metodę wywołano, bez powtórzeń.

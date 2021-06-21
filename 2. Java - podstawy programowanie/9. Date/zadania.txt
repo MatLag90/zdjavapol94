@@ -1,0 +1,8 @@
+1. Stwórz klasę Date reprezentującą datę. Niech posiada pola: day (int), month (int) oraz year (int).
+2. Dodaj konstruktor, gettery oraz metodę o sygnaturze: public String toString zwrającą datę zapisaną w formacie <nr dnia>.<nr miesiaca>.rok (np. 1.5.2020 lub 21.11.1998)
+3. Dodaj metodę isLeapYear sprawdzającą, czy rok daty jest przestępny.
+4. Dodaj metodę getCurrentMonthDaysCount zwracającą łączną liczbę dni w aktualnym miesiącu (niech metoda wykorzysta też metodę isLeapYear).
+5. Dodaj metodę sprawdzającą isValid, czy aktualna data jest poprawna (niech korzysta z metody getCurrentMonthDaysCount.
+6. Zmodyfikuj metodę public String toString, żeby liczba dni i miesięcy była zapisana dwucyfrowo, nawet gdy to wartości mniejsze od 10. Tj. np. 05.04.2012
+7. Dodaj metodę addDays, która doda określoną liczbę dni do daty.
+8. Spraw, aby metoda z zadania 7 mogła przyjąć jako argument też wartość ujemną.
