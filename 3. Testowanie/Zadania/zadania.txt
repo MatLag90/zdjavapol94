@@ -1,0 +1,25 @@
+Tworzymy nowy projekt mavenowy. Dodajemy do projektu zależność od JUnit Jupiter Aggregator.
+Utwórz testy dla klasy telewizor (dodaj do klasy Television gettery) w klasie TelevisionTest:
+T.1. Stwórz testy shouldTurnOff oraz shouldTurnOn testujące metody wyłączającą oraz włączającą telewizor.
+T.2. Stwórz test shouldIncreaseVolume testującą pogłośnienie telewizora.
+T.3. Stwórz test shouldNotIncreaseMaxVolume testującą, czy pogłośnienie telewizora o maksymalnej głośności poskutkuje (możesz dodać odpowiedni konstruktor na potrzeby testu).
+T.4. Zaimplementuj metody zmieniające kanały zgodnie z treścią wcześniejszego zadania. Stwórz testy: shouldSwitchToNextChannel oraz shouldSwitchBackToFirstChannel (w przypadku, gdy zmieniamy kanał z ostatniego w górę).
+
+R.1. Stwórz klasę RationalNumberTest - klasę z testami jednostkowymi dla klasy RationalNumber (dodaj do klasy gettery).
+Napisz test shouldReturnQuarterWhenMultiplyingTwoHalves, która przetestuje, czy dla mnożenia dwóch jednych drugich zwrócona zostanie ćwierć.
+R.2. Dodaj test shouldReturn0WhenGettingOppositionTo0 testującą metodę zwracającą liczbę przeciwną.
+R.3. Dodaj test shouldReturnNegative10WhenGettingOppositionTo10 testującą metodę zwracającą liczbę przeciwną.
+R.4. Dodaj test shouldReturn1WhenGettingInversionOf1 testującą metodę zwracającą liczbę odwrotną.
+R.5. Dodaj test shouldReturnHalfWhenGettingInversionOf2 testującą metodę zwracającą liczbę odwrotną.
+R.6.* Wygeneruj w klasie RationalNumber metody equals i hashCode z wykorzystaniem IntelliJ. Zmodyfikuj testy dla klasy RationalNumber tak, aby wynik działań był sprawdzany za pomocą jednej instrukcji.
+
+Dodaj do projektu zależność od AssertJ oraz klasy Warrior i Date z materiałów.
+Klasa WarriorTest
+1. Stwórz test sprawdzający, czy wojownik zada drugiemu wojownikowi cios równy sile jego ataku.
+2.a Stwórz test sprawdzający, czy konstruktor jednoparametrowy z klasy Warrior utworzy wojownika o stu punktach życia.
+2.b Zmodyfikuj konstruktor tak, aby użył finalnego statycznego pola o nazwie DEFAULT_HEALTH_POINTS.
+Klasa DateTest
+3. Stwórz test sprawdzający, czy metoda toString daty zwróci odpowiedni tekst.
+4. Stwórz test sprawdzający, czy data 12.6.2020 ma rok przestępny.
+5. Stwórz test sprawdzający, czy data 5.2.2020 ma w miesiącu 29 dni.
+6. Stwórz test sprawdzający działanie metody addDays (w razie czego dodaj tę metodę do klasy Date).
