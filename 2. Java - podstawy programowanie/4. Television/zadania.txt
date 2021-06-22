@@ -1,0 +1,12 @@
+T.1 Stwórz klasę reprezentującą Telewizor o polach:
+- głośność
+- liczba programów (kanałów)
+- numer aktualnego programu (kanału)
+- czy włączony
+T.2 W klasie mamy konstruktor ustalający wartości wszystkich pól zgodnie z wartościami parametrów. 
+W klasie mamy również konstruktor ustalający jedynie wartość liczby programów zgodnie z wartością parametru - w takim wypadku tworzony telewizor będzie wyłączony, aktualny program ma wartość 1, a głośność 0. 
+T.3 Mamy również metodę o sygnaturze public String toString, zwracającą opis telewizora. Jeśli telewizor jest wyłączony, to zwrócony opis ma jedynie zawierać informację "Wyłączony telewizor". Gdy telewizor jest włączony, opis ma wyglądać podobnie do:
+"Włączony telewizor. Aktualny program X (z Y dostępnych). Ustawiona głośność to Z."
+T.4 Do klasy dodaj metody włączajacą oraz wyłączającą telewizor (turnOn i turnOff)
+T.5 Dodaj do klasy metody pogłaśniające oraz ściszające telewizor. Głośność może znajdować się w przedziale 0-10 (dalsze ściszanie/pogłaśnianie nie będzie niczym skutkowało). Głośność można zmienić jedynie, gdy telewizor jest włączony. (volumeUp i volumeDown)
+T.6 Dodaj metodę zmieniającą kanał analogicznie do głośności (z uwzględnieniem liczby kanałów telewizora). Przy przełączeniu ostatniego kanału na następny, wracamy do kanału pierwszego (i odwrotnie - z pierwszego możemy przejść na ostatni). (nextChannel i previousChannel)
