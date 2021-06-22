@@ -1,6 +1,9 @@
 package pl.sdacademy.tv;
 // T.1 Stwórz klasę reprezentującą Telewizor o polach:
 public class Television {
+    private static final int MAX_VOLUME = 10;
+    private static final int MIN_VOLUME = 0;
+
     //    - głośność
     private int volume;
     //    - liczba programów (kanałów)
@@ -47,5 +50,24 @@ public class Television {
 //    T.4 Do klasy dodaj metody włączajacą oraz wyłączającą telewizor (turnOn i turnOff)
     public void turnOn() {
         on = true;
+    }
+
+    public void turnOff() {
+        on = false;
+    }
+
+//    T.5 Dodaj do klasy metody pogłaśniające oraz ściszające telewizor. Głośność może znajdować
+//    się w przedziale 0-10 (dalsze ściszanie/pogłaśnianie nie będzie niczym skutkowało).
+//    Głośność można zmienić jedynie, gdy telewizor jest włączony. (volumeUp i volumeDown)
+    public void volumeUp() {
+        if (on && volume < MAX_VOLUME) {
+            volume++;
+        }
+    }
+
+    public void volumeDown() {
+        if (on && volume > MIN_VOLUME) {
+            volume--;
+        }
     }
 }
