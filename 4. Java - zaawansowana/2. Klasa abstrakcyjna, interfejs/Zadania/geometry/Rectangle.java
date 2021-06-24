@@ -1,4 +1,4 @@
-package pl.sdacademy.exercises;
+package pl.sdacademy.exercises.geometry;
 
 //  2. (geom) Tworzymy klasę Rectangle o dwóch polach typu int
 //  (reprezentujące długości boków), która będzie rozszerzała klasę Shape.
@@ -19,6 +19,6 @@ public class Rectangle extends Shape {
 
     @Override
     public double getPerimeter() {
-        return 0; // TODO zaimplementować odpowiednio metodę!
+        return 2 * (a + b);
     }
 }

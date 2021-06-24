@@ -6,8 +6,8 @@ oraz metodę abstrakcyjną getPerimeter(); (obwód)
 3. (geom) Analogicznie tworzymy klasę Circle
 4. (geom) Tworzymy klasę Square, która będzie rozszerzała klasę Rectangle.
 5. (prod) Stwórz interfejs Product (produkt w sklepie) z metodami:
-int getPrice();
-int getWeight();
+double getPrice();
+double getWeight();
 6. (prod) Stwórz klasę ChocolateBar, która będzie reprezentowała batonik. Batonik ma pola cena i waga. Niech batonik będzie produktem (implementuje interfejs Product).
 7. (prod) Stwórz klasę Milk, która reprezenetuje mleko. Mleko ma pola: objętość, gęstość, oraz cena za kilogram. Niech mleko także będzie produktem.
 8. (geom) Tworzymy interfejs Solid (Bryła) o metodach abstrakcyjnych getSurfaceArea oraz getVolume.

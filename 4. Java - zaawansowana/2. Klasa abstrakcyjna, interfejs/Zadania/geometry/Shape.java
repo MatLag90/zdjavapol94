@@ -1,4 +1,4 @@
-package pl.sdacademy.exercises;
+package pl.sdacademy.exercises.geometry;
 
 //    1. (geom) Stworzymy abstrakcyjną klasę Shape, która będzie miała pole:
 //    private String color;
