@@ -1,8 +1,6 @@
-package pl.sdacademy.collections;
+package pl.sdacademy.collections.exercises;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Exercises {
     public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class Exercises {
         List<String> stringList = new LinkedList<>();
         stringList.add("aregaergea");
         stringList.add("agferg");
-        stringList.add("abcdef");
+        stringList.add("abcdefa");
 
         System.out.println("--------- Zadanie 1 ----------");
         zadanie1(integerList);
@@ -28,6 +26,17 @@ public class Exercises {
 
         System.out.println("\n--------- Zadanie 4 ----------");
         System.out.println(zadanie4(stringList));
+
+        System.out.println("\n--------- Zadanie 5 ----------");
+        System.out.println(zadanie5(stringList));
+
+        System.out.println("\n--------- Zadanie 7 ----------");
+//        Set<String> z7 = zadanie7(stringList);
+        System.out.println(zadanie7(stringList));
+
+        System.out.println("\n--------- Zadanie 11 ----------");
+        Converter<String> converter = new Converter<>();
+        System.out.println(converter.toSet(stringList));
     }
 
 //    1. Tworzymy metodę zadanie1, która przyjmie za parametr listę,
@@ -70,13 +79,33 @@ public class Exercises {
         return false;
     }
 
-//    5. Tworzymy metodę zadanie5, która przyjmie za parametr listę Stringów, a która zwróci odpowiedź na pytanie, ile elementów ma nieparzystą liczbę znaków.
-//    6. Tworzymy metodę zadanie6, która przyjmie za parametr zbiór Stringów, a która zwróci odpowiedź na pytanie, czy w zbiorze mamy łańcuch znaków, który kończy się na tekst "cde".
-//    7. Tworzymy metodę zadanie7, która za parametr przyjmie listę Stringów, a zwróci zbiór, zawierający elementy tej listy.
-//    8. Tworzymy metodę zadanie8, która za parametr przyjmie zbiór Stringów, a zwróci listę, zawierającą elementy tego zbioru.
-//    9. Tworzymy metodę zadanie9, która za parametr przyjmie listę stringów, a zwróci listę zawierającą długości elementów argumentu.
-//    10. Tworzymy metodę zadanie10, która za parametr przyjmie listę łańcuchów znaków, a która zwróci zbiór obiektów typu Pair (tworzonego wcześniej), którego lewy element to łańcuch znaków, który wystąpił w liście, a prawy to liczba wystąpień tego łańcucha.
-//    11. Tworzymy klasę Converter, która będzie typem generycznym, która będzie miała w generyczny sposób napisane metody z zadań 7 oraz 8 (nazwijmy je toSet oraz toList).
-//    12. W klasie Converter zamieniamy metody na statyczne metody generyczne (googlujemy).
-//    13. Napisz metodę, która przyjmie jako argument listę łańcuchów znaków - nazw drużyn. Metoda zwróci listę zbiorów par (obydwa elementy pary to łańcuchy znaków - nazwy drużyn). Każdy kolejny element listy będzie reprezentował spotkania rozgrywane w kolejce rozgrywek. W jednej kolejce jedna drużyna może zagrać tylko raz, każda drużyna ma zagrać z każdą inną drużyną raz oraz najlepiej, aby w każdej kolejce było jak najwięcej meczów.
+//    5. Tworzymy metodę zadanie5, która przyjmie za parametr listę Stringów,
+//    a która zwróci odpowiedź na pytanie, ile elementów ma
+//    nieparzystą liczbę znaków.
+    private static int zadanie5(List<String> stringList) {
+        int result = 0;
+        for (String element : stringList) {
+            if (element.length() % 2 == 1) {
+                result++;
+            }
+        }
+        return result;
+    }
+
+//    7. Tworzymy metodę zadanie7, która za parametr przyjmie listę Stringów,
+//    a zwróci zbiór, zawierający elementy tej listy.
+//  Wersja 1:
+//    private static Set<String> zadanie7(List<String> stringList) {
+//        Set<String> result = new HashSet<>();
+//        for (String element : stringList) {
+//            result.add(element);
+//        }
+//        return result;
+//    }
+
+    // Wersja 2:
+    private static Set<String> zadanie7(List<String> stringList) {
+        return new HashSet<>(stringList);
+    }
+
 }
