@@ -1,0 +1,20 @@
+Tworzymy klasę Person o polach:
+private String firstName;
+private String lastName;
+private int age;
+private float height;
+Nadpisz w klasie Person metodę toString (skorzystaj z domyślnej implementacji IntelliJ), dodaj konstruktor i gettery.
+1. Stwórz listę osób. Wypisz wszystkie osoby z listy.
+2. Z listy osób wypisać imię i nazwisko osób, których wiek jest większy od 20 lub wzrost jest większy niż 1.75.
+3. Wyfiltrować osoby tak, żeby zostały osoby o wieku mniejszym niż 18. Następnie przypisać do zmiennej typu List<String> listę imion wraz z nazwiskami takich osób.
+4. Sprawdź, czy w liście osób istnieje osoba o nazwisku "Kowalski" (za pomocą jednej metody strumienia!). Spróbuj znaleźć odpowiednią metodę strumienia, lub wygooglować rozwiązanie.
+5. Sprawdź, czy w liście osób wszystkie osoby mają mniej niż 2 metry wzrostu (za pomocą jednej metody strumienia!).
+6. Z listy osób wybierz takie, które mają imię rozpoczynające się na tę samą literę, co nazwisko. Zbierz do zbioru wysokości takich osób.
+7. Zlicz sumę lat wszystkich osób - spróbuj wygoogle'ować sposób na sumowanie elementów strumienia.
+8. Posortuj osoby na bazie ich nazwiska. Wypisz te osoby w konsoli.
+9. Posortuj listę osób w następujący sposób - wpierw nazwisko alfabetycznie rosnąco, następnie imię. Wypisz je w konsoli.
+10. Stwórz listę list liczb całkowitych. Wyfiltruj tę listę w taki sposób, aby pozostały jedynie te elementy, które posiadają element o wartości 5.
+11. Posortuj listę list liczb całkowitych za pomocą sumy ich elementów.
+12. Skonwertować listę do mapy, której kluczem będzie imię i nazwisko, a wartością będzie wiek osoby. (wygooglować sposób konwersji strumienia na mapę).
+13. Skonwertować listę do mapy, której kluczem będzie imię, a wartością będzie zbiór osób o tym imieniu.
+14. Mamy mapę o strukturze - klucze to stringi, a wartości to listy, których elementy są typu float. Za pomocą strumieni uzyskajmy listę kluczy z mapy, w kolejności posortowanej poprzez średnią elementów ich wartości.

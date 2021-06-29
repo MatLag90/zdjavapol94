@@ -47,5 +47,27 @@ public class Main {
         map.put("aaa", "111");
         map.put("bbb", "222");
         System.out.println(map);
+
+        // Comparator reprezentuje sposób porównywania dwóch obiektów zadanego typu (typu sparametryzowanego).
+        // Metoda abstrakcyjna compare tego interfejsu działa analogicznie do metody compareTo interfejsu
+        // Comparable.
+        // W przykładzie implementujemy ten interfejs - będzie "porównywaczem" tekstów. Jeden łańcuch będzie większy
+        // od drugiego, gdy będzie od niego dłuższy.
+        Comparator<String> myStringComparator = (text1, text2) -> text1.length() - text2.length();
+        // Porównamy przy użyciu naszego comparatora teksty "zzz" i "aaaaa". Ujemny wynik daje nam znać, że drugi
+        // argument jest większy wedle tego porównywania.
+        System.out.println(myStringComparator.compare("zzz", "aaaaa"));
+
+        // Przy użyciu własnego komparatora można tworzyć np. zbiór drzewiasty - użyjemy odpowiedniego
+        // konstruktora. Taki zbiór będzie porządkował swoje elementy na bazie zadanego komparatora.
+        Set<String> customTreeSet = new TreeSet<>(myStringComparator);
+        customTreeSet.add("jakieś");
+        customTreeSet.add("elementy");
+        // Zwróćmy uwagę, że element "zbioru" nie zostanie dodany - ma taką samą długość jak tekst "jakieś",
+        // więc dla tego zbioru te elementy są równe i nie trzeba już dodawać elementu, skoro w zbiorze już jest.
+        customTreeSet.add("zbioru");
+        customTreeSet.add("typu");
+        customTreeSet.add("drzewiastego");
+        System.out.println(customTreeSet);
     }
 }

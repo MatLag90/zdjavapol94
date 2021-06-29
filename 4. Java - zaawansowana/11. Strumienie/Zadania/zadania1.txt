@@ -1,0 +1,18 @@
+Stwórz listę stringów
+1. Wyfiltrujmy elementy tej listy w taki sposób, żeby w wyniku uzyskać te, których długość jest większa niż 5. Wypisz je w konsoli przy użyciu odpowiedniej metody strumienia.
+2. Wyfiltrujmy elementy tej listy w taki sposób, żeby w wyniku uzyskać te, których długość jest najwyżej równa 7. Następnie zbierz (collect) elementy strumienia do listy.
+3. Mapujemy elementy tej listy wybierając ich pierwsze trzy znaki (metoda substring). Wypisz elementy strumienia w konsoli.
+4. Listę stringów przefiltrować tak, żeby zostawić tylko te, które kończą i rozpoczynają się na literę 'A'. Następnie zliczyć je (metoda count())
+5. Zamień listę stringów na listę znaków - niech odbywa się to przez zmapowanie każdego łańcucha znaków do jego pierwszego znaku.
+6. Zmapuj elementy listy w taki sposób, aby pracować na nich zapisanych od końca. Przykład odwrócenia tekstu:
+String text = "abcde";
+StringBuilder stringBuilder = new StringBuilder(text);
+stringBuilder.reverse();
+String reversedText = stringBuilder.toString();
+Następnie wypisz w konsoli te wartości.
+7. Zmapuj listę liczb całkowitych w taki sposób, abyśmy otrzymali wartości dwa razy większe. Wypisz te wartości w konsoli.
+8. Zmapuj listę łańcuchów znaków do listy wartości logicznych w taki sposób, abyśmy zamiast każdego łańcucha znaków mieli informację, czy jego długość jest większa od 4. Wypisz te wartości w konsoli.
+9. Wyfiltruj listę liczb całkowitych pozostawiając tylko wartości parzyste. Wypisz wynik.
+10. Wyfiltruj listę znaków zostawiając tylko znaki mniejsze od znaku 'm'. Wynik przypisz do zmiennej typu zbiór znaków.
+11. Wyfiltruj listę łańcuchów znaków w taki sposób, abyśmy pozostawili łańcuchy, których drugi znak to 'a', a czwarty to 'z'. Wypisz te łańcuchy.
+12. Listę stringów zmapować tak, żeby usunąć ostatnią literę, a następnie przefiltrować tak, żeby zostały tylko teksty, które mają długość przynajmniej 2. Uzyskane łańcuchy wypisz w konsoli.

@@ -1,0 +1,11 @@
+1. Znajdź w kolekcji liczb całkowitych liczbę z przedziału 100 - 115. Przypisz wynik do zmiennej typu Optional.
+2. Sprawdź, czy do zmiennej z zadania 1 jest przypisana wartość, pod którą kryje się liczba całkowita, jeśli tak, to ją wypisz, jeśli nie, to wypisz w konsoli "brak wartości z przedziału 100 - 115.
+3. W kolekcji stringów wyszukaj jakikolwiek tekst, który rozpoczyna się od "ab". Następnie za pomocą metody ifPresent wypisz w konsoli "W kolekcji znajduje się tekst: X", gdzie X. to znaleziony łańcuch znaków.
+4. Stwórz opcjonalny łańcuch znaków - niech "pod nim" nie kryje się żadna wartość.
+5. Stwórz opcjonalny łańcuch znaków, "pod którym" kryje się łańcuch "aaaaa".
+6. Stwórz klasę reprezentującą osobę o polach (możesz użyć wcześniej tworzonej):
+private String firstName;
+private String lastName;
+private int age;
+private float height;
+Napisz metodę, która przyjmie za parametr listę osób. Z tej listy osób wyfiltruje osoby - zostawi te, których inicjały to MK. Następnie wybierze wiek najstarszej osoby. Jeśli nie znajdzie takiej osoby, to zwróci -1. W ciele metody użyj jednej instrukcji
