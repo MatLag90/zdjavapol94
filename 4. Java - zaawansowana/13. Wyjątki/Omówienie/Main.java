@@ -130,6 +130,17 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
+        System.out.println("\nPrzykład użycia wyjątku własnego typu");
+        try {
+            // Wyrzucimy wyjątek typu CustomRuntimeException.
+            throw new CustomRuntimeException("Wiadomość wyjątku", 5);
+        } catch (CustomRuntimeException e) {
+            System.out.println(e.getMessage());
+            // Możemy odwołać się do szczegółów sytuacji, która zaszła. W klasie CustomRuntimeException
+            // mamy getter dla pola x.
+            System.out.println(e.getX());
+        }
     }
 
     // Jeśli nie chcemy w ciele metody obsługiwać wyjątku zadanego typu, tylko w wypadku zaistnienia jego wyrzucenia

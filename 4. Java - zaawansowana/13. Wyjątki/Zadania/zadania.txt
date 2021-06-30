@@ -1,0 +1,15 @@
+1. Napisz metodę divide, która przyjmie dwa parametry typu int, która w przypadku dzielenia przez 0 zwróci null oraz w konsoli wyświetli odpowiednią informację, zamiast wyrzucania wyjątku (w ciele metody używając składni try/catch).
+2. Napisz metodę divideTwoArrayElements, która przyjmie trzy parametry:
+tablicę intów, indeks pierwszego elementu, oraz indeks drugiego elementu,
+która zwróci wynik dzielenia pierwszego elementu przez drugie element. Metodę należy napisać w taki sposób, żeby w żadnym wypadku nie wyrzucała wyjątku. Metoda, gdy podano nieprawidłowe argumenty, powinna zwrócić null (w treści metody używając składni try/catch).
+3. Edytuj tworzoną wcześniej klasę RationalNumber. W przypadku, gdy będzie tworzona instancja o mianowniku równym zero, powinien zostać wyrzucony wyjątek typu IllegalArgumentException z odpowiednim komunikatem.
+4. Edytuj tworzoną przez nas klasę StringList - w przypadku odwoływania się do elementu o nieistniejącym indeksie powinien zostać wyrzucony wyjątek typu IndexOutOfBoundsException z odpowiednim komunikatem.
+5.
+Mamy tworzoną wcześniej klasę Person o polach:
+private String firstName;
+private String lastName;
+private int age;
+private float height;
+oraz klasę PersonList, która będzie rozszerzała klasę ArrayList w taki sposób aby typ sparametryzowany miał wartość Person, oraz która będzie miała metody:
+6. Metoda wyszukująca osoby o zadanym wieku. W przypadku, gdy jako parametr przekaże się wartość ujemną wyrzucimy IllegalArgumentException z informacją, że należy przekazać jako argument wartość większą od 0.
+7. Metoda wyszukująca jedną osobę o zadanym imieniu i nazwisku. W przypadku, gdy takiej osoby nie będzie na liście, metoda powinna wyrzucić wyjątek typu NoSuchPersonException - który będzie miał pola String firstName oraz String lastName.
