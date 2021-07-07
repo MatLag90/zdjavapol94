@@ -1,0 +1,20 @@
+1. Stwórz typ Direction reprezentujący kierunek ruchu. Będziemy mieli cztery kierunki ruchu - góra, prawo, dół, lewo. Dodaj pole typu Direction do węża (o nazwie direction).
+2. Dodaj do klasy Snake metodę move poruszającą węża w kierunku zadanym za pomocą wartości pola direction.
+3. Stwórz klasę SnakeGame, reprezentującą rozgrywkę w węża. Klasa będzie miała pola:
+xBound, yBound - ograniczenia pola gry (współrzędnych)
+snake - wąż
+Klasa będzie również posiadała metodę start, która rozpoczyna rozgrywkę - w pętli wąż porusza się w zadanym kierunku (nie sprawdzamy w tym momencie czy wąż nie "wyskoczył" poza planszę). W ciele pętli wypisuj węża w konsoli. Dla przetestowania stwórz pętlę, która przebiegnie 10 razy. Następnie zastąp ją wieczną pętlą - while (true)
+4. Dodaj sprawdzanie w metodzie start, czy wąż nie wypadł poza pole gry - w takim wypadku zakończ działanie gry.
+5. Dodaj do klasy pole apple reprezentujące jabłko. Jabłko losowane jest za pomocą metody randomizeApple, która losuje jabłko w taki sposób, aby nie leżało na wężu.
+6. Gdy wąż trafi na jabłko nie ucina ugona przy ruchu. Rozwiąż to w następujący sposób: zamień ("rozbij") metodę move klasy Snake na dwie metody - expand (metoda rozszerza węża w kierunku pola direction) oraz cutTail (metoda ucina ogon).
+7. W przypadku, gdy tworzony jest niepoprawny obiekt typu SnakeGame (przekazano niepoprawne argumenty dotyczące zakresu gry wyrzuć wyjątek typu IllegalArgumentException.
+8. W przypadku, gdy tworzymy niepoprawnego węża (kolejne punkty nie są sąsiadujące) wyrzuć wyjątek typu IllegalArgumentException.
+9. Gdy wykonujemy niepoprawny ruch węża - głowa ląduje na ciele lub przez nie "przechodzi" - wyrzuć wyjątek typu IllegalMoveException. Obsłuż go w klasie SnakeGame kończąc rozgrywkę.
+10. Nadpisz metodę toString aby zwracała łańcuch znaków przedstawiający sytuację z gry. Niech głowa będzie oznaczona H, ciało B oraz jabłko A.
+11. Dodaj do klasy pole reprezentujące liczbę punktów gracza (liczbę zjedzonych jabłek).
+12. Do klasy SnakeGame dodaj konstruktor tworzący węża w lewym górnym narożniku składającego się jedynie z głowy (dodaj też do klasy Snake konstruktor, któremu możemy przekazać jako argument głowę). Jako kierunek ruchu niech ustawi prawo.
+13. Do klasy dodaj pole gameOn - które reprezentuje działającą rozgrywkę. Niech jego wartość będzie odpowiednio aktualizowana.
+
+1. Uśpij wątek przed każdym ruchem węża.
+2. Utwórz wątek zaczytujący z konsoli nowy kierunek ruchu węża. W wiecznej pętli użytkownik pytany jest o kierunek ruchu, ten kierunek jest ustawiany następnie grze. Wątek będzie deamonem.
+3. Wystartuj grę w głównym wątku.

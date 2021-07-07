@@ -1,0 +1,2 @@
+2,200,Fiat Fiesta,Niebieski
+4,210,Fiat Focus,Czarny

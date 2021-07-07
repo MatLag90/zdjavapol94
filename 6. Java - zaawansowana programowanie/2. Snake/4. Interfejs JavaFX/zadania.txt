@@ -1,0 +1,15 @@
+Zadania rozwiązywane w nowym projekcie:
+1. Utwórz projekt wedle archetypu javafx (groupId: org.openjfx, artifactId: javafx-archetype-simple, version: 0.0.5)
+Tworzony projekt:
+groupId: pl.sdacademy
+artifactId: snake
+Skopiuj do pakietu pl.sdacademy klasy z poprzedniego projektu gry w węża.
+2. Interfejs powinien składać się z kontenera rozmieszczającego dzieci w pionie, zawierającego dwójkę dzieci:
+- kontrolkę typu Canvas
+- kontener rozmieszczający dzieci w poziomie (HBox) - jego dziećmi będą cztery przyciski z tekstami: "góra", "lewo", "prawo", "dół".
+3. Utwórz klasę SnakeGameJavaFxPrinter. Klasa posiada pole typu GraphicsContext oraz pole typu int: pointSize. Wartości pól inicjalizuje konstruktor.
+4. Klasa SnakeGameJavaFxPrinter powinna posiadać metodę drawPoint. Przyjmuje parametry: punkt oraz kolor (javafx.scene.paint.Color). Metoda narysuje punkt (kwadrat) w odpowiednim miejscu, uwzględniając rozmiar punktu przypisany do pola pointSize. Upublicznij metodę na potrzeby jej przetestowania. Utwórz obiekt typu SnakeGameJavaFxPrinter i przetestuj działanie metody drawPoint.
+5. Klasa SnakeGameJavaFxPrinter implementuje interfejs SnakeGamePrinter. Implementacja metody będzie rysowała sytuację z gry z wykorzystaniem pola typu GraphicsContext oraz metody drawPoint. W razie czego utwórz odpowiednie gettery (wąż i jabłko) w klasie SnakeGame.
+6. Utwórz obiekt gry w węża, ustawiając jako strategię rysowania planszy obiekt typu SnakeGameJavaFxPrinter. Grę wystartuj w nowym wątku. Zakres planszy (xBound i yBound) wylicz dzieląc odpowiednio szerokość i wysokość płótna przez zakładany rozmiar punktu.
+7. Dodaj obsługę przycisków kierunkowych - po kliknięciu przycisku, wąż zmienia kierunek ruchu.
+8. Dodaj obsługę klawiszy klawiatury (wygoogluj przykład).

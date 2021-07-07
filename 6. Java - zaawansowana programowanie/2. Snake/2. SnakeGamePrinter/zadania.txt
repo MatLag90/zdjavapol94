@@ -1,0 +1,6 @@
+Zadania na wcześniej utworzonym projekcie gry w węża:
+1. Utwórz interfejs funkcyjny SnakeGamePrinter - będzie to strategia rysowania sytuacji z gry. Interfejs oferuje jedną metodę - print, która przyjmie jako parametr grę w węża.
+2. Utwórz implementację interfejsu, która wypisuje wartość parametru w konsoli (SnakeGameConsolePrinter).
+3. Do klasy SnakeGame dodaj pole typu SnakeGamePrinter (nazwij je printer). Wartość będzie inicjalizowana za pomocą konstruktora.
+4. W ciele metody start usuń wypisywanie planszy w konsoli - zamiast tego wywołaj metodę print strategii rysowania (obiektu przypisanego do pola printer).
+5. Zmodyfikuj metodę main w taki sposób, aby przy tworzeniu gry w węża ustawiona była strategia jej rysowania typu SnakeGameConsolePrinter.

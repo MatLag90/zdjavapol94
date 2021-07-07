@@ -1,0 +1,14 @@
+1. Dodaj metodę get, która przyjmie za parametr wartość typu int, a która zwróci osobę o zadanym identyfikatorze. Jeśli takiej osoby nie będzie zwróć null.
+2. Dodaj do klasy PersonRepository prywatną metodę generateNextId, która nie przyjmie żadnego parametru, a która zwróci "wolną" wartość identyfikatora osoby.
+Niech metoda działa następująco - znajdujemy maksymalny identyfikator i dodajemy do niego 1.
+    private int generateNextId() {
+        // znajdujemy maksymalny identyfikator w zbiorze osób,
+        // dodajemy 1 i wartość zwracamy.
+    }
+3. Dodaj do klasy PersonRepository prywatną metodę createFileLine, która zadziała odwrotnie do metody createPerson. Metoda przyjmuje jako parametr osobę, a zwraca wiersz, który będzie odpowiadać tej osobie. Przykładowo - dla parametru o wartości będącej osobą o id 3, imieniu Aaa, nazwisku Bbb i wieku 5 metoda zwróci "3,Aaa,Bbb,5".
+4. Dodaj do klasy PersonRepository prywatną metodę updateFile, która zapisze aktualny stan zbioru osób do pliku (przy użyciu metody createFileLine).
+5. Dodaj do typu Person konstruktor nieprzyjmujący id jako parametr (niech przydzielaniem id zajmie się obiekt typu PersonRepository). Zmień typ pola id na Integer - niezapisana osoba będzie miała wartość null przypisaną do tego pola.
+6. Dodaj do klasy PersonRepository metodę add, która przyjmie jako parametr obiekt typu Person, a która doda do repozytorium daną osobę.
+7. Dodaj metodę delete, która przyjmie jako parametr wartość typu int, a która usunie z repozytorium osobę o zadanym id.
+8. Dodaj metodę update, która przyjmie jako parametr obiekt typu Person, a która zaktualizuje dane osoby w repozytorium.
+9. Dodaj do typu Person konstruktor kopiujący - taki, który przyjmie jako parametr obiekt typu Person i utworzy jego kopię. Spraw, aby obiekt typu PersonRepository w żadnym wypadku nie zwracał "na zewnątrz" oryginałów (tyczy się to też samej zbioru osób).
