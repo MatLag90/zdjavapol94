@@ -1,4 +1,4 @@
-package pl.sdacademy;
+package pl.sdacademy.repository;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -16,7 +16,7 @@ public class CarRepository {
         filePath = Paths.get(filename);
         try {
             cars = Files.lines(filePath)
-                    .map(this::createCar) // inaczej: .map(fileLine -> createCar(fileLine))
+                    .map(this::createCar)
                     .collect(Collectors.toSet());
         } catch (IOException e) {
             throw new RuntimeException("Błąd odczytu danych z pliku", e);
@@ -30,10 +30,10 @@ public class CarRepository {
     private Car createCar(String fileLine) {
         String[] lineParts = fileLine.split(",");
         int id = Integer.parseInt(lineParts[0]);
-        String firstName = lineParts[1];
-        String lastName = lineParts[2];
-        int age = Integer.parseInt(lineParts[3]);
-        return new Car(id, firstName, lastName, age);
+        int maxSpeed = Integer.parseInt(lineParts[1]);
+        String model = lineParts[2];
+        String color = lineParts[3];
+        return new Car(id, maxSpeed, model, color);
     }
 
     public Car get(int id) {
@@ -51,8 +51,8 @@ public class CarRepository {
     }
 
     private String createFileLine(Car car) {
-        return car.getId() + "," + car.getFirstName()
-                + "," + car.getLastName() + "," + car.getAge();
+        return car.getId() + "," + car.getMaxSpeed()
+                + "," + car.getModel() + "," + car.getColor();
     }
 
     private void updateFile() {

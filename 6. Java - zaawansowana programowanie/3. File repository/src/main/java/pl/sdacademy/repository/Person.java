@@ -1,4 +1,4 @@
-package pl.sdacademy;
+package pl.sdacademy.repository;
 
 public class Person {
     private Integer id;

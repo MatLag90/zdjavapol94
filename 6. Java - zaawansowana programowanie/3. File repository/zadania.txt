@@ -12,3 +12,19 @@ Niech metoda działa następująco - znajdujemy maksymalny identyfikator i dodaj
 7. Dodaj metodę delete, która przyjmie jako parametr wartość typu int, a która usunie z repozytorium osobę o zadanym id.
 8. Dodaj metodę update, która przyjmie jako parametr obiekt typu Person, a która zaktualizuje dane osoby w repozytorium.
 9. Dodaj do typu Person konstruktor kopiujący - taki, który przyjmie jako parametr obiekt typu Person i utworzy jego kopię. Spraw, aby obiekt typu PersonRepository w żadnym wypadku nie zwracał "na zewnątrz" oryginałów (tyczy się to też samej zbioru osób).
+
+
+1. Stwórz klasę Car o polach:
+Integer id;
+int maxSpeed;
+String model;
+String color;
+Konstruktory i metody analogicznie do klasy Person.
+2. Tworzymy klasę CarRepository. Dodaj konstruktor, pola oraz metody createCar, getAll i get analogicznie, jak w klasie PersonRepository.
+3. Dodaj metodę add (oraz inne metody, których metoda add użyje)
+4. Wyłącz część wspólną typów CarRepository i PersonRepository do klasy AbstractRepository
+
+
+1. Skopiuj klasę Person do pakietu abstractrepository. Utwórz repozytorium osób analogicznie do repozytorium samochodów.
+2. Dodaj pozostałe metody z wcześniej tworzonych repozytoriów do repozytorium abstrakcyjnego.
+3. Dodajemy do repozytorium abstrakcyjnego metody update oraz delete (patrz poprzednia lista zadań).

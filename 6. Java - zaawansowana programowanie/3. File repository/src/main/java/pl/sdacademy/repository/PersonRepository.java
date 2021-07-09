@@ -1,4 +1,4 @@
-package pl.sdacademy;
+package pl.sdacademy.repository;
 
 import java.io.IOException;
 import java.nio.file.Files;

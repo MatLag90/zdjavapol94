@@ -1,6 +1,6 @@
-package pl.sdacademy;
+package pl.sdacademy.abstractrepository;
 
-public class Car {
+public class Car implements Entity {
     private Integer id;
     private int maxSpeed;
     private String model;
@@ -19,10 +19,12 @@ public class Car {
         this.color = color;
     }
 
+    @Override
     public Integer getId() {
         return id;
     }
 
+    @Override
     public void setId(Integer id) {
         this.id = id;
     }
