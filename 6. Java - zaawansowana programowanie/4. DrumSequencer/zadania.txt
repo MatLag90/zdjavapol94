@@ -1,0 +1,26 @@
+1. Tworzymy projekt mavenowy z wykorzystaniem Javy FX, której widok będzie zawierał jednokolumnowy kontener GridPane z etykietami w kolejnych wierszach:
+HiHat
+Stopa
+Werbel
+Do pliku module-info.java dopisujemy w nawiasach wąsatych:
+requires java.desktop;
+2. W każdym wierszu utwórz dodatkowo 32 checkboxy.
+3. Każdy checkbox powinien odpowiadać za ustawienie odpowiedniej wartości elementu odpowiedniej tablicy w instancji klasy NoteSequence.
+Np. pierwszy checkbox w wierszu HiHat powinien ustawiać odgrywanie talerza dla pierwszej nutki. Użyj metody start klasy midiPlayer, aby uruchomić odtwarzanie.
+4. Po każdych ośmiu kolumnach z checkboksami w kontenerze typu GridPane powinna być kolumna zawierająca pionową linię - obiekt typu Separator (wygoogluj javafx vertical separator).
+5. Zmodyfikuj klasę MidiPlayer tak, aby przed odegraniem danej nuty wykonana mogła zostać zadana akcja.
+Aby to uzyskać, zastosujemy wzorzec strategii.
+Dodajemy pole klasie MidiPlayer:
+Consumer<Integer> onNotePlayed;
+wraz z setterem.
+modyfikujemy ciało metody start:
+if (!mute) {
+    playNotes(i);
+}
+onNotePlayed.accept(i);
+Ustawmy akcję wykonywaną po odegraniu nuty - niech będzie wtedy wypisywane w konsoli, która nuta została odegrana.
+6. Zmień akcję wykonywaną po odegraniu nuty na kolorowanie odpowiedniej kolumny checkboxów (w skrócie - niech "aktualnie odgrywane" checkboxy będą w specjalny sposób oznaczone - ustaw im inny kolor tła).
+7. Zmodyfikuj interfejs tak, aby pod kontenerem siatkowym znajdował się  slider, który będzie regulował tempo midi playera (metoda setTempo służy do zmiany tempa).
+8. Dodaj wiersz o nagłówku "piano", który będzie reprezentował odgrywanie pianina. Zamiast checkboxów, chcielibyśmy w tym przypadku dropdowny.
+9. Cały interfejs użytkownika powinien zostać podzielony na dwie zakładki. Pierwsza reprezentuje edycję sekwencji (taką, jak do tej pory). Dodatkowo wyświetlona jest lista (ListView) zapisanych już sekwencji, prócz tego przycisk do zapisu aktualnie edytowanej sekwencji i przycisk do usunięcia sekwencji zaznaczonej na liście.
+10. Druga zakładka służy do "poukładania" zapisanych na liście sekwencji w zadany ciąg. Odtwarzacz midi może odgrywać zadaną sekwencję sekwencji.

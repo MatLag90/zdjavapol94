@@ -1,0 +1,20 @@
+1.0 Wybierz imiona, nazwiska i rok urodzenia wszystkich pracowników.
+1.1 Wybierz imiona i nazwiska dorosłych pracowników.
+1.2 Wybierz imiona i nazwiska osob o inicjałach KM.
+1.3 Wybierz wszystkie imiona pracowników (bez powtórzeń - googlujemy).
+1.4 Wybierz lata, w których urodzili się pracownicy o imieniu "Adam" lub "Anna".
+1.5 Wybierz wszystkie dane osób o imieniu "Adam" oraz urodzonych przed 1980 rokiem.
+1.6 Wybierz nazwiska wszystkich pracowników, którzy urodzili się w latach 80'
+1.7 Rozwiąż zadanie 1.4 przy użyciu słówka kluczowego IN
+1.8 Wybierz trzy najstarsze osoby.
+1.9 Wybierz drugą najstarszą osobę.
+
+2.1 Wybierz ilu jest pracowników o imieniu 'Adam'.
+2.2 Wypisz rok urodzenia najstarszego pracownika.
+2.3 Wypisz wiek najstarszego pracownika.
+2.4 Wybierz średnią wieku pracowników płci męskiej (dla uproszczenia przyjmijmy, że imiona mężczyzn nie kończą się na literę 'a' - docelowo oczywiście byłaby dodatkowa kolumna mówiąca o płci pracownika).
+2.5 Policz sumę lat wszystkich pracowników.
+2.6 Wypisz wszystkie dane najstarszego pracownika. (google: subquery)
+2.7 Wypisz dane pracowników, którzy żyją dłużej od pracownika nazywającego się Adam Nowak.
+2.8 Dla poprzednich zadań nazwij kolumny wyniku.
+2.9 Wybierz nazwiska pracowników, którzy mają tak samo na imiona, jak Kowalscy.
