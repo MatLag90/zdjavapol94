@@ -19,3 +19,6 @@ GROUP BY
     first_name
 HAVING
     COUNT(*) > 1;
+
+-- Część WHERE służy do filtrowania WIERSZY (nie używamy w tej części funkcji agregujących).
+-- Część HAVING służy do filtrowania GRUP (używamy w tej części funkcji agregujących).

@@ -18,3 +18,10 @@
 2.7 Wypisz dane pracowników, którzy żyją dłużej od pracownika nazywającego się Adam Nowak.
 2.8 Dla poprzednich zadań nazwij kolumny wyniku.
 2.9 Wybierz nazwiska pracowników, którzy mają tak samo na imiona, jak Kowalscy.
+
+3.1 Wypisz ilu jest pracowników wedle nazwiska
+3.2 Wypisz ilu jest pracowników wedle imienia i wieku.
+3.3 Wypisz ilu pracowników ma więcej niż 25 lat wedle imienia.
+3.4 Wypisz te imiona osób, dla których średnia wieku będzie większa od 50.
+3.5 Rozwiąż zadanie z podpunktu 3.4 w taki sposób, żeby ta średnia była większa od średniej wieku wszystkich pracowników.
+3.6 Spośród maksymalnych wieków dla imion, które rozpoczynają się od litery 'A' wybierz wartość najmniejszą.
