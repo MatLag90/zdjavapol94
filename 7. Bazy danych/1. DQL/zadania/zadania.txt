@@ -25,3 +25,16 @@
 3.4 Wypisz te imiona osób, dla których średnia wieku będzie większa od 50.
 3.5 Rozwiąż zadanie z podpunktu 3.4 w taki sposób, żeby ta średnia była większa od średniej wieku wszystkich pracowników.
 3.6 Spośród maksymalnych wieków dla imion, które rozpoczynają się od litery 'A' wybierz wartość najmniejszą.
+
+4.0 Wypisz imiona i nazwiska pracowników oraz nazwę działu, w którym pracują.
+4.1 Wypisz bez powtórzeń nazwiska pracowników, którzy pracują w sprzedaży.
+4.2 Wypisz ilu pracowników pracuje w danym dziale (dział przedstawiamy za pomocą jego nazwy).
+4.3 Rozwiąż zadanie z poprzedniego podpunktu, aby wypisać też dane działów, w których nie ma żadnego pracownika.
+4.4 Wypisz nazwy działów, w których nikt nie pracuje.
+
+5.0 Stwórz tabelę job, która będzie opisywała piastowane stanowiska. Niech w tabeli będą pola: id, name oraz salary. Dodaj wartości do tej tabeli. Dodaj klucz obcy do tabeli employee - pracownik będzie miał przypisane stanowisko.
+5.1 Wypisz imiona, nazwiska, nazwy stanowisk oraz działu wszystkich pracowników, którzy mają więcej niż 50 lat.
+5.2 Wypisz ilu pracowników mamy na każdym stanowisku w każdym dziale.
+5.3 Wypisz pracowników, którzy pracują na stanowisku, na którym zarabia się najwięcej.
+5.4 Wypisz nazwy stanowisk, które są obsadzone zarówno w dziale sprzedaży jak i marketingu.
+5.5 Wypisz średnią różnicę wieku między pracownikami.

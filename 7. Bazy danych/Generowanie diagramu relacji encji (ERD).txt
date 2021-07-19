@@ -1,0 +1,5 @@
+Generowanie diagramu relacji encji (ERD) w Workbench:
+1. Menu Database -> Reverse Engineer (Ctrl + R)
+2. Wybieramy połączenie z serwerem baz danych (najpewniej wybrane będzie odpowiednie, więc wystarczy kliknąć dalej).
+3. Dalej, dalej, dalej (po drodze wybierając bazę danych, która nas interesuje).
+4. Na diagramie zostały umieszczone nasze encje.

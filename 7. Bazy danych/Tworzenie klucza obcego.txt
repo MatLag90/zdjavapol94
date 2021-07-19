@@ -1,0 +1,8 @@
+(Opis jest nieco uproszczony, bo można zakładać też klucze obcena wiele kolumn)
+Klucz obcy nałożony na kolumnę sprawia, że będzie ona odwołaniem do kolumny innej tabeli. W naszym przykładzie utworzyliśmy w tabeli employee klucz obcy - składa się na niego kolumna department_id, która jest odwołaniem do kolumny id tabeli department. Sprawia to, że dane z obu tabel są fizycznie ze sobą związane. Dzięki temu nie będzie możliwości wprowadzenia nieprawidłowego identyfikatora działu w tabeli pracowników. Do tego wybieranie danych z obu tabel jednocześnie przy użyciu tego klucza będzie dużo bardziej wydajne.
+Tworzenie klucza obcego w Workbench:
+1. Edytujemy strukturę tabeli, do której dodajemy klucz. Tworzymy kolumnę, która będzie odwołaniem do kolumny innej tabeli (typ musi się zgadzać!). 
+2. U dołu przechodzimy na zakładkę Foreign keys. W wierszu reprezentującym tworzony klucz:
+3. Podajemy nazwę klucza. 
+4. Wybieramy tabelę, do której klucz się odwołuje (referenced table).
+5. Wybieramy kolumnę z tabeli, do której dodajemy klucz, a następnie kolumnę z tej tabeli, do której się odwołujemy.
