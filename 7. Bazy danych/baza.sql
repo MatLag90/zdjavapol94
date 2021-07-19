@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `company` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `company`;
 USE `company`;
 
 --
@@ -12,7 +12,7 @@ CREATE TABLE `department` (
                               `name` varchar(45) NOT NULL,
                               `location` varchar(45) NOT NULL,
                               PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6;
 
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `employee` (
                             PRIMARY KEY (`id`),
                             KEY `fk_employee_department_idx` (`department_id`),
                             CONSTRAINT `fk_employee_department` FOREIGN KEY (`department_id`) REFERENCES `department` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9;
 
 --
 -- Dumping data for table `employee`
