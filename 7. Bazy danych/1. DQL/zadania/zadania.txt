@@ -1,6 +1,6 @@
 1.0 Wybierz imiona, nazwiska i rok urodzenia wszystkich pracowników.
 1.1 Wybierz imiona i nazwiska dorosłych pracowników.
-1.2 Wybierz imiona i nazwiska osob o inicjałach KM.
+1.2 Wybierz imiona i nazwiska osób o inicjałach KM.
 1.3 Wybierz wszystkie imiona pracowników (bez powtórzeń - googlujemy).
 1.4 Wybierz lata, w których urodzili się pracownicy o imieniu "Adam" lub "Anna".
 1.5 Wybierz wszystkie dane osób o imieniu "Adam" oraz urodzonych przed 1980 rokiem.
